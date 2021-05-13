@@ -7,7 +7,6 @@ connection = sqlite3.connect('DB\PythonStudents.db')
 Consult = connection.cursor()
 #Create table
 Consult.execute("""CREATE TABLE IF NOT EXISTS StudentsList (
-        Id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
         enrollment INTEGER,
         FirstName VARCHAR(60) NOT NULL,
         LastName VARCHAR(60) NOT NULL
