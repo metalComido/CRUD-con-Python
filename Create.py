@@ -8,7 +8,7 @@ Consult = connection.cursor()
 
 many_Students = [
                     ('01223402','leobardo','Sanchez'),
-                    ('01234567','prueba','python'),
+                    ('01234567','pruebas1','python'),
                     ('98765432','pruebas2','python2'),
                 ]
 

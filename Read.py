@@ -6,7 +6,7 @@ connection = sqlite3.connect('DB\PythonStudents.db')
 #Create a cursor
 Consult = connection.cursor()
 
-#Read the database PythonStudents
+
 Consult.execute("SELECT rowid, * FROM StudentsList")
 
 items = Consult.fetchall()

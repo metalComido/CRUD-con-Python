@@ -18,7 +18,7 @@
     
 Instructions :
     
-1. open the virtual terminal pipenv
+1. open the virtual terminal pipenv shell
 2. select to perform the determined function 
     -   Create : insert a new student  
     -   Read : Consult the list of the student
