@@ -6,7 +6,7 @@ connection = sqlite3.connect('DB\PythonStudents.db')
 #Create a cursor
 Consult = connection.cursor()
 
-#Deleting in database PythonStudents
+#Deleting in database StudentList using the id 
 Consult.execute("DELETE FROM StudentsList WHERE rowid = 2")
 
 connection.commit()
